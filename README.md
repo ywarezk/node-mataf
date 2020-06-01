@@ -3,7 +3,6 @@
 Yariv katz
 
 github.com/ywarezk/node-mataf
-yariv@nerdeez.com
 
 ### Course Plan
 
