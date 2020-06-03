@@ -75,3 +75,26 @@ print them
 create the ex in a typescript
 run the file with the debugger
 
+### to run your files
+
+```
+npx ts-node <filename.ts>
+```
+
+### Variable declaration
+
+const/let/var varName = someValue;
+
+-----| scope        | number of assignments|
+
+const    {}                 1
+let      {}                infinite
+var      functional        infinite
+
+### Student EX.
+
+- define variable will hold array numbers
+- populate the array with numeric values
+- Math.random()
+- using a for loop populate the array with 10 random numbers
+- sort the array and print the array values
