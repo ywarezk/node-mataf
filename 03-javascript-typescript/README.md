@@ -63,7 +63,8 @@ to run a file called: print-env.ts
             ],
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
-            ]
+            ],
+            "sourceMaps": true
         }
 ```
 
