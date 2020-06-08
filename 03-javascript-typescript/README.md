@@ -129,3 +129,12 @@ https://stackoverflow.com/questions/44764004/ts-node-is-not-recognized-as-an-int
 - you will have to use the built in module: **fs**
 - use the function **readFile** to read the txt file you created
 - run with the debugger
+
+###  OOP EX
+
+- create a **User** class
+- user has a firstName, lastName, id
+- create another class called **UserService**
+- UserService will contain a private property **users: User[]**
+- UserService is a singleton, private constructor, static instance, static getInstance
+- CRUD - **getUser(id)**, **createUser(firstName, lastName, id)**, **updateUser(firstName, lastName, id)**, **deleteUser(id: number)**
