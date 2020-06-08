@@ -98,3 +98,26 @@ var      functional        infinite
 - Math.random()
 - using a for loop populate the array with 10 random numbers
 - sort the array and print the array values
+
+### Running ts files with debugger
+
+Add the following in the configurations array in the launch.json file:
+
+```
+{
+    "type": "node",
+    "request": "launch",
+    "name": "Launch Program",
+    "program": "${workspaceFolder}\\node_modules\\ts-node\\dist\\bin.js",
+    "args": [
+        "path-of-file-to-run.ts"
+    ],
+    "skipFiles": [
+        "<node_internals>/**"
+    ]
+}
+```
+
+I posted the solution here as well:
+
+https://stackoverflow.com/questions/44764004/ts-node-is-not-recognized-as-an-internal-or-external-command-operable-program/62259280#62259280
