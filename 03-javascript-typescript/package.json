@@ -12,5 +12,9 @@
     "@types/node": "^14.0.9",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.155",
+    "lodash": "^4.17.15"
   }
 }

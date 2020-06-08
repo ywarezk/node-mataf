@@ -121,3 +121,11 @@ Add the following in the configurations array in the launch.json file:
 I posted the solution here as well:
 
 https://stackoverflow.com/questions/44764004/ts-node-is-not-recognized-as-an-internal-or-external-command-operable-program/62259280#62259280
+
+### EX
+
+- create a txt file: hello world
+- read the content of the file and print that content
+- you will have to use the built in module: **fs**
+- use the function **readFile** to read the txt file you created
+- run with the debugger

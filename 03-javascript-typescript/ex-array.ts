@@ -1,3 +1,7 @@
+import {reverse} from 'lodash';
+
+
+
 const arrayOfNumbers: number[] = [];
 
 for (let i=0; i<10; i++) {
@@ -8,6 +12,8 @@ for (let i=0; i<10; i++) {
 }
 
 arrayOfNumbers.sort();
+
+console.log(reverse(arrayOfNumbers));
 
 // QA sort in decending order
 /*
