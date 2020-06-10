@@ -34,4 +34,36 @@ npm install @types/express -D
 npx tsc --init
 ```
 
+## REST
+
+based on http protocol
+communication protocol
+based on the http request i get i need to return response in a certain way
+
+based on the request method
+we know what the user want to do:
+
+GET - client wants to read data
+POST - client wants to add data
+PUT - client wants to update data
+DELETE - client wants to delete data
+
+path -/api/users
+path - /api/todo
+
+returns the response in a json format
+each action has a proper status code
+
+## Student EX.
+
+- express installations
+- create express application
+- config the application to response to the following requests:
+  - GET - /api/users/:id - single user - with status 200, 404 if user not found {error: 'user not found'}
+  - DELETE - /api/users/:id -  deletes a user - status 204
+
+- to create the delete request use postman: https://www.postman.com/
+
+
+
 

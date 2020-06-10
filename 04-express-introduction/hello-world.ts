@@ -14,7 +14,9 @@ app.get('/hello', function(req: Request, res: Response) {
     res.status(201).send('hello world');
 });
 
-app.post('/create', function(req, res) {
+// /create/3
+app.post('/create/:createId', function(req, res) {
+    const createId: string = req.params['createId']
     res.status(200).json({
         hello: 'world'
     })
