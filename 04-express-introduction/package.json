@@ -1,0 +1,21 @@
+{
+  "name": "04-express-introduction",
+  "version": "1.0.0",
+  "description": "our backend apps will run on a server our apps will listen for request and return response client ---> server - backend app protocol http http the server is passive server returns data -> html, json, js, css, img server -> johnbryce.com/about/hello http is stateless",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/node": "^14.0.13",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ts-node": "^8.10.2"
+  }
+}
