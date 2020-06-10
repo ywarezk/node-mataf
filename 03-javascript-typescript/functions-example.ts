@@ -49,8 +49,8 @@ a['hello']();
 // this is set by the object that calls the function
 
 const lambdaWhatThis = () => {
-    const that = this as any;
-    console.log(that);
+    // const that = this as any;
+    // console.log(that);
 }
 
 
