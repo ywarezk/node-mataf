@@ -10,6 +10,13 @@ import createApplication, {Application, Request, Response} from 'express';
 // handles certain requests
 const app: Application = createApplication();
 
+// app.use('/authenticated', function(req, res, next) {
+//     // ... some check
+//     next();
+//     // fail
+//     next(new Error())
+// })
+
 app.get('/hello', function(req: Request, res: Response) {
     res.status(201).send('hello world');
 });
