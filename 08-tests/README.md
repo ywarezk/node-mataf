@@ -58,3 +58,4 @@ place the following in **launch.json** to run the tests
 - Run the tests automatically
 - unit test, integration tests have a longer life span than e2e
 - writing tests get easier, but it's something you will have to practice.
+- tests should be sandboxed, one test cannot effect the other one

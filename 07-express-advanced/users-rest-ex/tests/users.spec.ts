@@ -40,7 +40,7 @@ describe.only('users REST api', function() {
 
     // })
 
-    it.only('create user', async function() {
+    it('create user', async function() {
         // call something, expect the right output
         // hello world === hello world
         // assertion library - chai,  
@@ -56,8 +56,23 @@ describe.only('users REST api', function() {
         // UserService.getInstance().getUser()
     });
 
-    it('update user', () => {
+    it('update user', async () => {
+        const response: AxiosResponse = await axios.put('http://localhost:3000/api/users/1', {
+            firstName: 'foo'
+        });
+        strictEqual(response.status, 202);
+        strictEqual(response.data.firstName, 'foo');
+    });
 
-    })
+    it('delete user', async () => {
+        const response: AxiosResponse = await axios.delete('http://localhost:3000/api/users/1');
+        strictEqual(response.status, 204);
+    });
+
+    it('get user', async () => {
+        const response: AxiosResponse = await axios.get('http://localhost:3000/api/users/2');
+        strictEqual(response.status, 200);
+        strictEqual(response.data.id, 2);
+    });
 
 })
