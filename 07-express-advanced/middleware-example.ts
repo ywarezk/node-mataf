@@ -31,6 +31,7 @@ app.get('/hello-isca', greetingMiddlewareCreator('isca'));
 
 // all request types: get, post, put, delete, ...
 // all urls that start  /api/authenticated
+// /api/authenticated/hello/world
 app.use('/api/authenticated', authenticationCreator({authenticate: () => true}));
 app.use(authenticationCreator({authenticate: () => true}))
 

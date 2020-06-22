@@ -8,6 +8,7 @@ const app: Application = createApplication();
 
 // middleware creator
 // req.body // {hello: world}
+// Content-Type: application/json
 app.use(urlencoded())
 app.use(json());
 
