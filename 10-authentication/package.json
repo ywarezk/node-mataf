@@ -1,0 +1,24 @@
+{
+  "name": "10-authentication",
+  "version": "1.0.0",
+  "description": "Authentication 1. Who are you?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/node": "^14.0.14",
+    "@types/passport-local": "^1.0.33",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "ts-node": "^8.10.2"
+  }
+}

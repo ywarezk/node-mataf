@@ -20,6 +20,10 @@ different strategies:
 - oauth2
 - Google
 
+we can divide the strategies to two groups
+- group that use session
+- group that doesn't session
+
 ## Passport
 
 passport is used to authenticate the user
@@ -50,3 +54,8 @@ i can load different (multiple) strategies
 
 
 
+### EX.
+
+- continuing the user rest server
+- only authenticated users can send requests to the /api/users
+- jwt authentication
