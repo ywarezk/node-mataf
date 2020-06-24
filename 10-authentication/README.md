@@ -59,3 +59,9 @@ i can load different (multiple) strategies
 - continuing the user rest server
 - only authenticated users can send requests to the /api/users
 - jwt authentication
+- add an email and password for every user like we did here: https://github.com/ywarezk/node-mataf/tree/master/10-authentication
+
+- create a rest login api in the url: post /api/login
+- email, password you will have to use the local strategy to confirm the user
+- if user is authenticated you send that user jwt token
+- client sends the jwt token he can view the /api/users
