@@ -17,13 +17,15 @@ app.use(cookieParser());
 
 app.get('/hello', function(req, res: Response) {
     // save some data about the user
-    res.cookie('hello', 'world');
+    res.cookie('hello', 'world', {
+        httpOnly: true,
+        
+    });
     res.send('hello world');
 });
 
 app.get('/dashboard', function(req, res) {
     // retrieve the data that we saved and display it
-    
     res.send('something from cookies ' + req.cookies['hello']);
 })
 

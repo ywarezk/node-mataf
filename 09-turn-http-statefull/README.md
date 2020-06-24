@@ -13,5 +13,13 @@ another solution cookies.
 ## One solution is using cookies
 
 
+### CSRF - cross site request forgery
+
+evil.com
+send request to 
+bank.com
+
+client active session in bank.com
+
 
 
