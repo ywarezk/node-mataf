@@ -52,6 +52,16 @@ app.use(passport({
 
 i can load different (multiple) strategies
 
+### JWT
+
+- Our backend express application will prepare every user a token jwt token
+  - our backend will make the token using this library: https://www.npmjs.com/package/jsonwebtoken
+- Our client will get the token and send it in every request in the headers
+  - Authorization: Bearer <token>
+
+The protocol is defined in this site:
+https://jwt.io/
+
 
 
 ### EX.

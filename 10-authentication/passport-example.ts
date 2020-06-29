@@ -24,8 +24,14 @@ app.post('/login', passport.authenticate('local', {session: false}));
 
 app.post('/login', function(req, res) {
     const user = req.user as User;
+    
+    // i can make the token here and send it to the user
+
     res.send('user is logged in ' + user.firstName);
-})
+});
+
+app.use('/api/users', passport.authenticate('jwt', {session: false}));
+
 
 app.listen(3000, function() {
     console.log('listening...');

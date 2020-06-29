@@ -6,6 +6,7 @@
 
 import passport from 'passport';
 import { Strategy as LocalStrategy } from 'passport-local';
+// import {Strategy } from 'passport-activedirectory';
 import {UserService} from '../services/user.service';
 
 // req.user
