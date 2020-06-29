@@ -1,7 +1,7 @@
 {
-  "name": "10-authentication",
+  "name": "users-rest-ex",
   "version": "1.0.0",
-  "description": "Authentication 1. Who are you?",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,16 +11,18 @@
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^4.17.6",
-    "@types/jsonwebtoken": "^8.5.0",
-    "@types/node": "^14.0.14",
-    "@types/passport-jwt": "^3.0.3",
-    "@types/passport-local": "^1.0.33",
+    "@types/express-handlebars": "^3.1.0",
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^14.0.13",
+    "axios": "^0.19.2",
+    "mocha": "^8.0.1",
     "typescript": "^3.9.5"
   },
   "dependencies": {
     "express": "^4.17.1",
-    "jsonwebtoken": "^8.5.1",
+    "express-handlebars": "^4.0.4",
     "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0",
     "ts-node": "^8.10.2"
   }
