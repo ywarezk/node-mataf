@@ -1,0 +1,22 @@
+{
+  "name": "12-mongo",
+  "version": "1.0.0",
+  "description": "1. Install mongo - https://www.mongodb.com/try/download/community 2. open in cmd C:\\Program Files\\MongoDB\\Server\\4.2\\bin 3. create the directory c:\\data\\db 4. mongod.exe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@typegoose/typegoose": "^7.2.0",
+    "mongoose": "^5.9.20",
+    "ts-node": "^8.10.2"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.7.29",
+    "@types/node": "^14.0.14",
+    "typescript": "^3.9.5"
+  }
+}
