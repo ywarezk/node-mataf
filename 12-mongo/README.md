@@ -66,3 +66,12 @@ in the tsconfig.json you will have to set:
 npm install @types/node @types/mongoose -D
 ```
 
+## Collection associations
+
+- one-one
+- one-many
+- many-many
+
+## Index
+
+

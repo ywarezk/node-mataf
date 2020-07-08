@@ -5,9 +5,15 @@
  * to that class
  */
 
-import { prop } from '@typegoose/typegoose';
+import { prop, Ref } from '@typegoose/typegoose';
+// import { User } from '../user/user';
 
 export class Dog {
     @prop()
     name: string = '';
+
+    // @prop({
+    //     ref: User
+    // })
+    // user: Ref<User>; // ObjectId
 }
