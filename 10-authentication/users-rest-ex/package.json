@@ -22,7 +22,7 @@
     "express": "^4.17.1",
     "express-handlebars": "^4.0.4",
     "passport": "^0.4.1",
-    "passport-jwt": "^4.0.0",
+    "passport-jwt": "^4.0.1",
     "passport-local": "^1.0.0",
     "ts-node": "^8.10.2"
   }
