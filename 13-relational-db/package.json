@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "class-validator": "^0.12.2",
+    "class-validator": "^0.14.0",
     "sqlite3": "^5.0.0",
     "ts-node": "^8.10.2",
     "typeorm": "^0.2.25"
